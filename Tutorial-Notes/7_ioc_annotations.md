@@ -112,3 +112,20 @@
 
 * can use for all 3 types of injection
 
+# 5. Bean Scopes
+
+* default is Singleton
+
+<img src="img/7_annotations/14.png"/>
+<img src="img/7_annotations/15.png"/>
+
+# 6. Bean Lifecycle/Methods
+
+## Development Process
+
+1. Define your methods for init and destroy
+<img src="img/7_annotations/16.png"/>
+
+2. Add Annotations: @PostConstruct and @PreDestroy
+<img src="img/7_annotations/17.png"/>
+
