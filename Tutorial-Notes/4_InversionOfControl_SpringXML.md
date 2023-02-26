@@ -10,7 +10,7 @@
 * (Definition) The approach of **outsourcing the construction** and **management of objects**
     * outsource to an object factory
 
-<img src="./img/1.png"/>
+<img src="./img/4_ioc_springxml/1.png"/>
 
 * Basically, use Spring Object Factory to create corresponding object
 
@@ -63,7 +63,7 @@ section4-inversionOfControl-SpringXML/src/main/java/HelloSpringApp.java
 * Dependency Inversion Principle
     * The client delegates calls to another object the responsibility of providing its dependencies.
 
-<img src="./img/2.png"/>
+<img src="./img/4_ioc_springxml/2.png"/>
 
 * Current Situation
     * Our Coach already provides daily workouts
@@ -118,48 +118,48 @@ public class BaseballCoach implements Coach {
 
 **Behind the Scene**
 
-<img src="./img/3.png"/>
+<img src="./img/4_ioc_springxml/3.png"/>
 
 ### 3.2 Development Process - Setter Injection
 
 1. Create setter method(s) in your class for injections
 
-<img src="./img/4.png"/>
+<img src="./img/4_ioc_springxml/4.png"/>
 
 2. Configure the dependency injection in Spring config file
 
-<img src="./img/5.png"/>
+<img src="./img/4_ioc_springxml/5.png"/>
 
 
-<img src="./img/6.png"/>
+<img src="./img/4_ioc_springxml/6.png"/>
 
 ### 3.3 Injecting Literal Values
 
 1. Create setter method(s) in your class for injections
 
-<img src="./img/7.png"/>
+<img src="./img/4_ioc_springxml/7.png"/>
 
 2. Configure the dependency injection in Spring config file
 
-<img src="./img/8.png"/>
+<img src="./img/4_ioc_springxml/8.png"/>
 
 #### 3.3.1 Injection Values from a properties file
 
 * Want to read literals (string) from a properties file
-<img src="./img/9.png"/>
+<img src="./img/4_ioc_springxml/9.png"/>
 
 
 #### 3.3.2 Development Process
 
 1. Create Properties File
 
-<img src="./img/10.png"/>
+<img src="./img/4_ioc_springxml/10.png"/>
 
 
 2. Load Properties File in Spring config file
 
-<img src="./img/11.png"/>
+<img src="./img/4_ioc_springxml/11.png"/>
 
 3. Reference values from Properties file
 
-<img src="./img/12.png"/>
+<img src="./img/4_ioc_springxml/12.png"/>
